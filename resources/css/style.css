@@ -8,8 +8,68 @@
 }
 
 /* Global styling */
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: clamp(1.8rem, 9vw, 3.6rem);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: clamp(1.7rem, 8vw, 3rem);
+    font-weight: 700;
+}
+
+h3 {
+    font-size: clamp(1.4rem, 6vw, 2.4rem);
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 600
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #131313
+}
+
+p {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+}
+
+hr {
+    width: 50px;
+    height: 2px;
+    background-color: coral;
+}
+
+.stars i {
+    font-size: 0.8rem;
+    color: goldenrod;
+}
+
+button {
+    padding: 0.6em 1.2em;
+    font-size: clamp(0.8rem, 3vw, 1rem);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #323233;
+    transition: 0.3s ease;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #000;
 }
 
 
@@ -39,6 +99,28 @@ body{
     max-width: 40px;
     height:40px;
     border-radius: 50%;
+}
+
+/* Home Section Style */
+#home {
+    background-image: url("../images/shopping.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 4%;
+}
+
+#home span {
+    color: coral;
+}
+
+#home .home-content {
+    width: 80%;
 }
 
 
