@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styling */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Navbar Style */
+.navbar{
+    box-shadow: 0 5px 10px rgba(0,0,0,.3);
+}
+
+.navbar-light .navbar-nav .nav-item {
+    transition: 0.3s ease;
+    padding: 5px 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:coral;
+}
+
+.navbar-light .navbar-toggler .bar{
+    color: #000;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #fff;
+}
+
+#logo{
+    max-width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+
