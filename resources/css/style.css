@@ -123,6 +123,36 @@ button:hover {
     width: 80%;
 }
 
+/* Product Section */
+#products img {
+    height: 70%;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.product-box {
+    cursor: pointer;
+}
+
+.product-box img {
+    transition: 0.3s all;
+}
+
+.product-box:hover img {
+    opacity: 0.8;
+}
+
+.product-box .buy-btn {
+    background-color: coral;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product-box:hover .buy-btn {
+    transform: translateY(0);
+    opacity: 1;
+}
 
 /* Footer */
 footer {
