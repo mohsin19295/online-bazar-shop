@@ -37,7 +37,7 @@ function footer() {
                     <i class="fa-brands fa-pinterest"></i>
                 </div>
                 <h4 class="pb-2">Write To Us</h4>
-                <p>support@thebadbilly.com</p>
+                <p>support@onlineshop.com</p>
             </div>
         </div>`;
 }
