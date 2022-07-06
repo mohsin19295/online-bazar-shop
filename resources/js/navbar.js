@@ -1,6 +1,6 @@
 function navbar  ()  {
     return `<div class="container-fluid">
-            <img id="logo" src="./resources/images/logo.png" alt="">
+            <img id="logo" src="../images/logo.png" alt="">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">

@@ -1,7 +1,7 @@
 function footer() {
     return `<div class="row container-fluid mx-auto pt-5">
             <div class="footer-box col-lg-3 col-md-6 col-12 mb-3">
-                <img id="footer-logo" src="./resources/images/logo.png" alt="">
+                <img id="footer-logo" src="../images/logo.png" alt="">
                 <p class="mt-3">Online Shoping Bazar</p>
 
             </div>
