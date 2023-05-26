@@ -1,4 +1,4 @@
-function navbar  ()  {
+function navbar  ()  {  
     return `<div class="container-fluid">
             <img id="logo" src="../images/logo.png" alt="">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -12,13 +12,7 @@ function navbar  ()  {
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link active" aria-current="page" href="#footer">Contact</a>
                     </li>
             </div>
         </div>`;
